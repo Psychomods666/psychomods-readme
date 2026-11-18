@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1000 174" role="img"><title>Psychomods profile card</title><defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="edge"><stop stop-color="#00FF41" stop-opacity=".05"/><stop offset=".5" stop-color="#00FF41" stop-opacity=".8"/><stop offset="1" stop-color="#00FF41" stop-opacity=".05"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#00FF41" stroke-opacity=".055" stroke-width=".7"/></pattern></defs><style>
+    @font-face{font-family:'Fira Code';src:url('') format('woff2');font-weight:400}
+    text{font-family:'Fira Code',ui-monospace,monospace}
+    .card{fill:#0A0A12;stroke:#263344;stroke-width:1.4}
+    .glow{filter:url(#glow)}
+    @keyframes enter{0%{opacity:1;transform:translateY(0)}100%{opacity:1;transform:translateY(0)}}
+    @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+    @keyframes scan{0%{transform:translateY(-12px);opacity:0}15%{opacity:.24}85%{opacity:.12}100%{transform:translateY(180px);opacity:0}}
+    .enter{animation:none 3.4000000000000004s both}
+    .pulse{animation:none 4.0s infinite}
+    .scan{animation:none 3.4000000000000004s infinite}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.smil-motion{display:none!important}}
+    </style><rect x="1" y="1" width="998" height="172" rx="16" class="card"/><a xlink:href="https://github.com/Psychomods666/psychomods-forensic-lab"><g class="enter"><text x="30" y="39" fill="#00FF41" font-size="12">03 / FEATURED REPOSITORY</text><text x="30" y="86" fill="#F3F7F3" font-size="27">psychomods-forensic-lab</text><text x="31" y="119" fill="#A7B3A8" font-size="14">Digital forensics and investigation lab</text><rect x="30" y="139" width="12" height="12" rx="6" fill="#00FF41"/><text x="51" y="150" fill="#A7B3A8" font-size="11">Security Research</text><text x="960" y="87" text-anchor="end" fill="#00FF41" font-size="17">OPEN REPOSITORY</text></g></a></svg>

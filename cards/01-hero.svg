@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1000 260" role="img"><title>Psychomods profile card</title><defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="edge"><stop stop-color="#00FF41" stop-opacity=".05"/><stop offset=".5" stop-color="#00FF41" stop-opacity=".8"/><stop offset="1" stop-color="#00FF41" stop-opacity=".05"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#00FF41" stroke-opacity=".055" stroke-width=".7"/></pattern></defs><style>
+    @font-face{font-family:'Fira Code';src:url('') format('woff2');font-weight:400}
+    text{font-family:'Fira Code',ui-monospace,monospace}
+    .card{fill:#0A0A12;stroke:#263344;stroke-width:1.4}
+    .glow{filter:url(#glow)}
+    @keyframes enter{0%{opacity:1;transform:translateY(0)}100%{opacity:1;transform:translateY(0)}}
+    @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+    @keyframes scan{0%{transform:translateY(-12px);opacity:0}15%{opacity:.24}85%{opacity:.12}100%{transform:translateY(180px);opacity:0}}
+    .enter{animation:none 0s both}
+    .pulse{animation:none 0.6s infinite}
+    .scan{animation:none 0s infinite}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.smil-motion{display:none!important}}
+    </style><rect x="1" y="1" width="998" height="258" rx="18" class="card"/><rect x="2" y="2" width="996" height="256" rx="17" fill="url(#grid)"/><rect x="0" y="0" width="1000" height="3" rx="2" fill="url(#edge)"/>
+    <g class="enter"><text x="54" y="55" fill="#00FF41" font-size="15" letter-spacing="4">PSYCHOMODS / PROFILE.SYS</text><text x="52" y="133" fill="#F3F7F3" font-size="52" font-weight="700">ASHWIN JOYSON</text><text x="55" y="174" fill="#A7B3A8" font-size="18">Cybersecurity Researcher  /  AI Developer  /  Ethical Hacker</text><text x="55" y="220" fill="#00FF41" font-size="13" letter-spacing="1.5">BREAK IT TO UNDERSTAND IT. BUILD IT TO DEFEND IT.</text></g>
+    <g class="pulse"><circle cx="905" cy="77" r="35" fill="none" stroke="#00FF41" stroke-opacity=".5"/><circle cx="905" cy="77" r="24" fill="none" stroke="#00FF41"/><path d="M905 45V109M873 77H937" stroke="#00FF41" stroke-opacity=".45"/><circle cx="905" cy="77" r="5" fill="#00FF41" class="glow"/><circle cx="905" cy="77" r="35" fill="none" stroke="#00FF41" stroke-opacity=".35" class="smil-motion"></circle></g><text x="845" y="143" fill="#00FF41" font-size="10">SECURITY LAB</text><rect class="scan" x="0" y="0" width="1000" height="2" fill="#00FF41" opacity=".2"/></svg>
